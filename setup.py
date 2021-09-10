@@ -14,7 +14,7 @@ setuptools.setup(
     version=version,
     author="Dhia HMILA",
     author_email="dhiahmila@gmail.com",
-    description="pre-commit hooks to handle ipynb files",
+    description="A set of pre-commit hooks to handle ipynb files",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
@@ -22,8 +22,8 @@ setuptools.setup(
     packages=['hooks'],
     include_package_data=True,
     entry_points={
-        'console_scripts': ['nb-delete-empty-cells=hooks.delete_empty_cells:delete_empty_cells',
-                            'nb-delete-image-outputs=hooks.delete_image_outputs:delete_image_outputs'
+        'console_scripts': ['nb-delete-empty-cells=hooks.nb_delete_empty_cells:delete_empty_cells',
+                            'nb-delete-image-outputs=hooks.nb_delete_image_outputs:delete_image_outputs'
                             ],
     },
     install_requires=requirements,
