@@ -1,0 +1,12 @@
+-   id: nb-delete-empty-cells
+    name: Delete empty cells in Notebook
+    description: Delete empty cells in Notebook
+    entry: nb-delete-empty-cells
+    language: python
+    files: '\.ipynb$'
+-   id: nb-delete-image-outputs
+    name: Delete images in cell outputs
+    description: Delete images in cell outputs
+    entry: nb-delete-image-outputs
+    language: python
+    files: '\.ipynb$'
